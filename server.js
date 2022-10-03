@@ -19,4 +19,4 @@ const getFunding = async () => {
 
 setInterval(function(){
     getFunding();
-}, 5000);
+}, 30000);
