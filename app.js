@@ -10,5 +10,5 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
   });
-app.get("/", (req, res) => { res.send("Welcome to LOL API ... ('This is a root Path')") })
+app.get("/", (req, res) => { res.send("Welcome to API ... ('This is a root Path') An Hour (3600000)") })
 module.exports = app

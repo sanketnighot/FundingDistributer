@@ -20,10 +20,10 @@ const getFunding = async () => {
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
-    console.log(`Server Running at http://localhost:${PORT} ...`);
+    console.log(`Server Running at ${PORT} ... An Hour (3600000)`);
 });
 
 setInterval(function(){
     getFunding();
-}, 30000);
+}, 3600000);
 
